@@ -1,8 +1,9 @@
-* {
-  display: inline-block;
-}
 body {
+  background-color: #fff;
   font-family: 'Roboto', sans-serif;
+}
+.page {
+  margin: 6%;
 }
 
 a {
@@ -19,20 +20,27 @@ a:hover {
   background-size: 0 3px, 100% 3px
 }
 
-.type {
-  color: purple;
+h3.type {
   margin-left: 50%;
-  padding: 0;
 }
 
 .header {
   text-align: center;
   font-size: 150%;
-  display: block;
 }
 
+h2 {
+  display: inline;
+}
+
+.character {
+  display: inline-block;
+}
+
+p {
+  margin: 3px;
+}
 
 img {
   max-width: 100%;
-  height: auto;
 }
